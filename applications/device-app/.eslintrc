@@ -1,12 +1,17 @@
 {
-    "extends": [
-        "react-app",
-        "plugin:prettier/recommended"
-    ],
-    "rules": {
-        "jsx-a11y/anchor-is-valid": "off",
-        "react-hooks/exhaustive-deps":"off",
-        "no-useless-escape": "off",
-        "import/no-anonymous-default-export":"off"
-    }
+  "extends": [
+    "react-app",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "jsx-a11y/anchor-is-valid": "off",
+    "react-hooks/exhaustive-deps":"off",
+    "no-useless-escape": "off",
+    "import/no-anonymous-default-export":"off",
+    "prettier/prettier": [
+      "error",
+      { "endOfLine": "auto"},
+      { "usePrettierrc": true }
+    ]
+  }
 }
